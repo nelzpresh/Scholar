@@ -1,0 +1,125 @@
+body {
+font-size: 16px;
+margin: 0 auto;
+background-color: black;
+color: seashell;
+}
+
+/* Header */
+
+header {
+height: 7rem;
+position: fixed;
+z-index: 5;
+display: flex;
+border-bottom: 1.5px solid black;
+background-color: aqua;
+width: 100%;
+color: black;
+}
+
+header .container {
+display: flex;
+}
+
+.logo img {
+width: 5rem;
+height: 5rem;
+margin: 1rem 1.3rem;
+}
+
+h2 {
+padding-top: 2.7rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 2rem;
+font-family: 'Elsie Swash Caps', cursive;
+font-style: italic;
+font-weight: bold;
+}
+
+ul {
+margin-left: 42rem;
+padding-top: 2.5rem;
+display: flex;
+}
+
+li {
+padding: 1rem;
+font-size: 1.2rem;
+font-family: 'Elsie Swash Caps', cursive;
+font-weight: bold;
+overflow: hidden;
+text-transform: capitalize;
+}
+
+/* background */
+
+.shoe {
+position: relative;
+top: 6rem;
+background-image: url('./images/heels arena 1.jpeg');
+height: 35rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.shoe h1 {
+font-size: 4rem;
+font-family: 'Monoton', cursive;
+font-weight: bold;
+color: whitesmoke;
+text-align: center;
+padding-top: 3rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.design {
+display: inline-flex;
+margin-top: 10rem;
+}
+
+.col {
+display: flex;
+text-align: center;
+margin-left: 1rem;
+}
+
+.image img {
+width: 70%;
+height: 60%;
+border-radius: 5px;
+}
+
+h3 {
+padding: 1.2rem;
+font-size: 2rem;
+text-transform: capitalize;
+font-weight: bold;
+font-family: 'PT Serif', serif;
+}
+
+span {
+font-size: 1.2rem;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: underline;
+letter-spacing: 1.5px;
+}
+
+p {
+width: 50%;
+font-size: 1.1rem;
+line-height: 1.2;
+font-weight: lighter;
+font-family: 'ZCOOL XiaoWei', serif;
+margin-left: 10rem;
+margin-bottom: 2rem;
+}
+
+footer {
+padding: 1.2rem;
+border-top: 1.5px solid seashell
+}
